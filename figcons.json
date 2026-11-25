@@ -1,0 +1,71 @@
+{
+    "workbench.colorTheme": "Visual Studio Dark",
+    "code-runner.runInTerminal": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "git.autofetch": false,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "explorer.confirmDelete": false,
+    "terminal.integrated.initialHint": false,
+    "chat.viewSessions.orientation": "stacked",
+    "makefile.configureOnOpen": false,
+    "python.analysis.memory.keepLibraryAst": false,
+    "eslint.workingDirectories": [
+        "./src"
+    ],
+    "typescript.tsserver.maxTsServerMemory": 1536,
+    "ts/js/tsserver.maxTsServerMemory": 1536,
+    "js/ts.tsserver.maxTsServerMemory": 1536,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/env": true,
+        "**/venv": true,
+        "**/.next": true,
+        "**/dist": true,
+        "**/build": true,
+        "**/.turbo": true,
+        "**/coverage": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/env/**": true,
+        "**/venv/**": true,
+        "env-*": true,
+        "**/.git/**": true,
+        "**/.next/**": true,
+        "**/dist/**": true,
+        "**/build/**": true,
+        "**/.turbo/**": true,
+        "**/.vscode/**": true
+    },
+    "files.exclude": {
+        "**/.next": true,
+        "**/.turbo": true
+    },
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.value": 8,
+    "workbench.editor.limit.perEditorGroup": true,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.profiles.linux": {
+        "zsh": {
+            "path": "/usr/bin/zsh"
+        }
+    },
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontLigatures": true,
+    "terminal.integrated.lineHeight": 1.3
+}
